@@ -1,0 +1,189 @@
+
+
+#map {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+#description {
+    margin: 12px;
+    margin-top: 50px;
+    background-color: rgba(241, 12, 0, 0);
+    position: absolute;
+    border-radius: 35px;
+    width: 280px;
+}
+
+#divTitle {
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 35px;
+    height: 150px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+#divTitle::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+}
+
+#options {
+    margin-top: 12px;
+    padding-left: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 35px;
+}
+
+#title {
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#lblSelectThemes {
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+#btnDownloadStyle {
+    width: 32px;
+    height: 32px;
+    margin: 4px;
+    border-radius: 10px;
+}
+
+#btnDownloadStyle svg {
+    width: 16px;
+    height: 16px;
+  }
+/*DARK THEME*/
+
+.divTitle-darkTheme {
+    background-color: rgba(248, 240, 223, 0.85);
+    border: 2.5px solid rgb(113, 111, 129);
+}
+
+.options-darkTheme {
+    background-color: rgba(248, 240, 223, 0.85);
+    border: 2.5px solid rgb(113, 111, 129);
+}
+
+.title-darkTheme {
+    color: rgb(113, 111, 129);
+}
+
+.lblSelectThemes-darkTheme {
+    color: rgb(113, 111, 129);
+}
+
+/*END DARK THEME*/
+
+/*LIGHT THEME*/
+
+.divTitle-lightTheme {
+    background-color: rgba(251, 198, 164, 0.85);
+    border: 2.5px solid rgb(254, 241, 230);
+}
+
+.options-lightTheme {
+    background-color: rgba(251, 198, 164, 0.85);
+    border: 2.5px solid rgb(254, 241, 230);
+}
+
+.title-lightTheme {
+    /*color: rgb(254, 241, 230);*/
+    color: rgb(49, 107, 131);
+
+}
+
+.lblSelectThemes-lightTheme {
+    color: rgb(49, 107, 131);
+}
+
+/*END LIGHT THEME*/
+
+/*NIGHT THEME*/
+
+.divTitle-nightTheme {
+    background-color: rgba(205, 93, 125, 0.85);
+    border: 2.5px solid rgb(167, 197, 235);
+}
+
+.options-nightTheme {
+    background-color: rgba(205, 93, 125, 0.85);
+    border: 2.5px solid rgb(175, 185, 200);
+}
+
+.title-nightTheme {
+    color: rgb(175, 185, 200);
+}
+
+.lblSelectThemes-nightTheme {
+    color: rgb(175, 185, 200);
+}
+
+/*END NIGHT THEME*/
+
+/*REDUCED DAY THEME*/
+
+.divTitle-reducedDayTheme {
+    background-color: rgba(149, 218, 193, 0.85);
+    border: 2.5px solid rgb(111, 105, 172);
+}
+
+.options-reducedDayTheme {
+    background-color: rgba(149, 218, 193, 0.85);
+    border: 2.5px solid rgb(111, 105, 172);
+}
+
+.title-reducedDayTheme {
+    color: rgb(111, 105, 172);
+}
+
+.lblSelectThemes-reducedDayTheme {
+    color: rgb(111, 105, 172);
+}
+
+/*END REDUCED DAY THEME*/
+
+#selectThemes {
+    border-radius: 35px;
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 4px;
+    margin: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+  
+  /* Tooltip text */
+  #btnDownloadStyle .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  #btnDownloadStyle:hover .tooltiptext {
+    visibility: visible;
+  }
